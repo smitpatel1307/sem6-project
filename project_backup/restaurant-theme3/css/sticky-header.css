@@ -1,0 +1,81 @@
+header{
+
+min-height: 70px;
+background: #fff;
+z-index: 6667;
+    position: absolute;
+    width: 100%;
+
+// set animation
+-webkit-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+
+header.sticky{
+position: fixed;
+width: 100%;
+background: #fff;
+top:0px;
+padding: 0;
+z-index: 99997;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.17);
+}
+
+
+.header .logo-fixed{ display:none;}
+
+
+.header-two{
+
+min-height: 98px;
+background:none;
+z-index: 6667;
+position:absolute;
+ width:100%;
+ 
+// set animation
+-webkit-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+
+.header-two.sticky{
+position: fixed;
+min-height: 64px; 
+width: 100%;
+background: #fff;
+top:0px;
+padding: 0;
+z-index: 99997;
+border-bottom:solid 1px #F3F3F3;
+}
+
+.header-two.sticky .nav ul li.select-item a { color: #222; border-bottom: solid 1px #222;}
+.header-two.sticky .nav ul li.select-item a:hover{color: #222; border-bottom: solid 1px #222;}
+.header-two.sticky .logo2{ display:none;}
+.header-two.sticky .logo-dark{ display:inline-block; width:130px; float:left; margin: 8px 0 0 0;}
+.header-two.sticky .nav ul li a { color: #222; line-height: 58px;}
+.header-two.sticky .nav ul li a:hover{ color: #e9b947;}
+.header-two.sticky .social-icons li a{ color: #444;}
+
+.header-two.sticky .get-touch li.contact-no a {color: #222;}
+.header-two.sticky .cart-button i {color: #222; line-height: 62px;}
+.header-two.sticky .shop-bag .num { color: #fff; background-color: #444; margin:13px 0 0 20px;}
+.header-two.sticky .social-icons { margin: 18px 8px 0 0;}
+.header-two.sticky .get-touch { margin: 16px 0 0 0;}
+
+
+
+
+
+
+#page header.sticky a{
+
+    top: 14px;
+    z-index: 99998;
+    left: -40px;
+
+}
+#page .header{ position: fixed;    z-index: 99998;    min-height: 0;}
+
+#page header.sticky{ border-bottom:none;}
+

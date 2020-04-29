@@ -1,0 +1,330 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+ .main-serach a.btn-mr-t, .main-serach a.btn-home-1{
+  padding: 5px 17px;
+ }
+ .grbn-about-chef.abt2 .chef-social-icon ul{
+  width:100px;
+ }
+  .grnbrn-chef2-area.abt1 .chef-social-icon ul{
+  width:132px;
+ }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*response helper class for table mode*/
+ .mtb-30{
+  margin-bottom:30px;
+ }
+/*response helper class for table mode*/
+
+/*home page one */
+.top-men-bar.stick-me.not-sticking{
+  z-index: -9999;
+}
+/*header css*/
+
+
+
+
+
+
+/*header css*/
+  .all-del-food {
+
+  padding: 72px 10px 55px 20px;
+
+}
+ .del-food-hding,.del-food-all {
+  text-align: center;
+}
+
+.carousel-indicators.sm-ffod {
+  left: 50%;
+}
+/*home page one */
+/*home page Two */
+ .chef-text {
+  margin: 30px 0;
+}
+ .grbn-about-chef .big-spacer {
+  height: 0px;
+}
+ .all-testi-menu-today {
+
+  padding: 40px 20px;
+
+}
+/*home page Two */
+
+/*blog single  page*/
+.single-widget:last-child {
+  margin-bottom: 0;
+}
+/*blog single  page*/
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+/*mobile page setting class*/
+ .sec-pad{
+ padding:  35px 0px;
+ }
+ .stb-20{
+  margin-bottom: 20px;
+ }
+ .stb-30{
+  margin-bottom: 30px;
+ }
+/*mobile page setting class*/
+ /*header css*/
+.left-cell-icon  ul,.right-social-icon ul {
+  text-align: center;
+}
+.left-cell-icon  {
+  margin-bottom: 15px;
+}
+
+.top-men-bar.stick-me.not-sticking{
+  z-index: -9999;
+}
+ /*header css*/
+
+ /*----home page css------*/
+ /*home page one*/
+.slider-con h1 {
+  font-size: 35px;
+}
+ .slide-control-mr {
+ display:none;
+}
+ .slider-con a {
+  margin: 7px 5px;
+}
+ .sec-tit h2 {
+
+  font-size: 30px;
+
+}
+ .sec-tit h4 {
+  font-size: 20px;
+}
+ .sec-tit h4::after {
+
+  bottom: -6px;
+
+
+}
+ .big-spacer {
+  height: 25px;
+}
+ .small-spacer {
+  height: 25px;
+}
+ .all-del-food {
+
+  padding: 30px 10px 30px 20px;
+
+}
+
+.small-food-menu .media {
+    text-align: center;
+ position: relative;
+}
+.small-food-menu .media a {
+    float: inherit !important;
+}
+.small-food-menu ul li .media-body {
+  position: initial;
+}
+ .small-food-menu ul li .media-body span {
+
+right: 20%;
+transform: translate(-20%);
+
+}
+ .del-food-all {
+  text-align: center;
+}
+ .del-food-hding {
+  text-align: center;
+   margin-bottom: 20px;
+}
+ .single-del-fd {
+  margin: 0px 0;
+  margin-bottom: 30px;
+}
+ .carousel-indicators.sm-ffod {
+  left: 50%;
+  margin-bottom: 8px;
+
+}
+ .small-food-menu ul li:last-child{
+  margin-bottom: 0px;
+ }
+ .grnbn-chef-area {
+  padding-bottom: 0px;
+  padding-top: 35px;
+}
+.grnbn-tesi-area {
+
+  padding: 35px 0;
+
+}
+ .slick-dots {
+  bottom: -35px;
+}
+.all-spf-food .slick-dots {
+  bottom: -50px;
+}
+ .mutu-1 {
+  height: 10px;
+}
+ .testi-content h5 {
+
+  margin-top: 10px;
+}
+ /*home page one*/
+/*home page two*/
+ .main-slider-1.home-1 .slider-con  p{
+  display: none;
+ }
+  .main-slider-1.home-1 .slider-con {
+  margin-top: 165px;
+}
+ .main-slider-1.home-1.no-mar .slider-con {
+  margin-top:0px;
+}
+
+ .grbn-about-chef.home-1 .big-spacer{
+  height:0px
+ }
+ .chef-text {
+  margin: 25px 0;
+}
+ .chef-section-tit h2 {
+
+  margin: -15px 0 0;
+}
+ .all-testi-menu-today {
+
+  padding: 35px 10px;
+
+}
+ .mbn-n{
+  margin-top: 0px;
+ }
+/*home page two*/
+
+
+
+
+
+ /*home page css*/
+ /*---other page css---*/
+ .blog-img img {
+  width: 100%;
+}
+ .chef-tem-text {
+  margin-top: 10px;
+}
+ .stb-15{
+  margin-bottom: 15px;;
+ }
+.mb-30.min {
+  margin-bottom: 0;
+}
+ .grnbn-cal-toact p {
+
+  white-space: normal;
+}
+ .mbl-margn {
+  margin-top: 4px;
+  text-align: center;
+}
+ .mb-30.mb-m{
+  margin-bottom: 15px;
+ }
+ .small-spacer.min{
+  height:10px;
+ }
+ .mbn-n {
+  margin-top: 20px;
+}
+ .mbn-n.mn-0 {
+  margin-top: 0px;
+}
+
+
+ .main-blg-Fight-f ul{
+
+  margin-top: 7px;
+ }
+ td.td-img{
+  min-width:150px;
+ }
+ .cupn input {
+
+  width: 100%;
+}
+
+ .grnbn-bread-cum {
+
+  padding: 60px 0;
+
+}
+ .grnbn-bread-cum h4 {
+  font-size: 25px;
+
+}
+ .slider-con p {
+  margin: 0 0 10px;
+}
+ /*--other page css---*/
+
+
+
+
+
+
+
+
+
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+ .main-slider-1.home-1 .slider-con {
+  margin-top: 0px;
+}
+.small-food-menu ul li .media-body span {
+  right: 30%;
+  transform: translate(-30%);
+}
+ .main-blg-Fight-f ul{
+  margin-top: 0px;
+ }
+ .stb-15.mn{
+  margin-bottom: 0px;
+ }
+.slider-con p {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+}

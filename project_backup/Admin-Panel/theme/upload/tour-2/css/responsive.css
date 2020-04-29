@@ -1,0 +1,853 @@
+
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 10px;
+        position: relative;
+    }
+    
+    
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.show .dropdown-menu {
+        top: 98px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+        font-size: 14px;
+    }
+    .header-area .header-inner .title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .single-blog-grid-item .content .title {
+        font-size: 20px;
+    }
+    .single-blog-grid-item .content .title {
+        font-size: 18px;
+    }
+    .contact-form-content-area .contact-form .form-group.textarea .form-control {
+        min-height: 150px;
+    }
+    .why-us-area .left-content-area .title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .single-destination-item .content .title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .search-area .search-inner .search-tab-content ul li .single-item.select {
+        min-width: 130px;
+    }
+    
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 83px;
+        background: #ffffff;
+        z-index: 9;
+        right: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        border: 0;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+        color: #fff;
+    }
+    .dropdown-item {
+        background: #141A66;
+        color: #fff;
+        border: 0;
+    }
+    
+    .navbar-area {
+        top: 0;
+        height: 100px;
+    }
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        line-height: 35px;
+    }
+    
+    .navbar-area.nav-fixed {
+        padding: 20px 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area.nav-fixed .navbar-collapse {
+        top: 80px;
+    }
+    .header-area .header-right-area{
+        display: none;
+    }
+    
+    .navbar-area .nav-container {
+        position: relative;
+    }
+    /* nav left align */
+    
+    .navbar-area .navbar-collapse {
+        top: 68px;
+        right:0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+        color: #242424;
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.dropdown.mega-menu.show  .mega-menu-wrapper {
+        position: initial;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+        height: 0;
+        overflow: hidden;
+        transition: height .3s ease-in;
+    }
+    
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.show .dropdown-menu {
+        height: auto;
+    }
+ 
+    .navbar-area .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.active .nav-link, 
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .nav-link{
+        color: #737286;
+    }
+    
+    .navbar-area.nav-fixed .nav-container {
+        margin-top: 0;
+    }
+    .widget-area{
+        margin-top: 40px;
+    }
+    .why-us-area .left-content-area .title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .why-us-area .right-content-area .img-wrapper img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .single-pakages-item {
+        margin-bottom: 30px;
+    }
+    
+    .awesome-pakages-area {
+        padding-bottom: 70px;
+    }
+    .contact-info-area {
+        margin-bottom: 30px;
+    }
+    .header-area .header-inner .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .about-content-area .right-content-area {
+        margin-top: 30px;
+    }
+    
+    .single-team-member-item .thumb img {
+        width: 100%;
+    }
+    
+    .single-team-member-item,
+    .single-price-plan-two {
+        margin-bottom: 30px;
+    }
+    
+    .team-member-area,
+    .pakages-content-area,
+    .price-plan-area  {
+        padding-bottom: 70px;
+    }
+    .single-header-bottom-item {
+        margin-bottom: 30px;
+    }
+    
+    .header-bottom-area.home-two {
+        padding-top: 72px;
+    }
+    .single-blog-grid-item .content .title {
+        font-size: 20px;
+    }
+    .search-area .search-inner .search-tab-content ul {
+        flex-wrap: wrap;
+    }
+    .single-destination-item .content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 83px;
+        background: #ffffff;
+        z-index: 9;
+        right: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        border: 0;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+        color: #fff;
+    }
+    .dropdown-item {
+        background: #141A66;
+        color: #fff;
+        border: 0;
+    }
+    
+    .navbar-area {
+        top: 0;
+        height: 100px;
+    }
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        line-height: 35px;
+    }
+    
+    .navbar-area.nav-fixed {
+        padding: 20px 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area.nav-fixed .navbar-collapse {
+        top: 80px;
+    }
+    .header-area .header-right-area{
+        display: none;
+    }
+    
+    .navbar-area .nav-container {
+        position: relative;
+    }
+    /* nav left align */
+    
+    .navbar-area .navbar-collapse {
+        top: 68px;
+        right:0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+        color: #242424;
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.dropdown.mega-menu.show  .mega-menu-wrapper {
+        position: initial;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+        height: 0;
+        overflow: hidden;
+        transition: height .3s ease-in;
+    }
+    
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.show .dropdown-menu {
+        height: auto;
+    }
+ 
+    .navbar-area .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.active .nav-link, 
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .nav-link{
+        color: #737286;
+    }
+    
+    .navbar-area.nav-fixed .nav-container {
+        margin-top: 0;
+    }
+    
+    .breadcrumb-area .domain-search-area-inner .title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+    .widget-area{
+        margin-top: 40px;
+    }
+    .header-area .header-inner .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 23px;
+    }
+    .why-us-area .right-content-area{
+        margin-bottom: 30px;
+    }
+    .why-us-area .left-content-area .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .single-pakages-item .thumb img {
+        width: 100%;
+    }
+    .single-pakages-item,
+    .contact-info-area,
+    .single-team-member-item,
+    .single-price-plan-two {
+        margin-bottom:30px;
+    }
+    .awesome-pakages-area,
+    .team-member-area,
+    .price-plan-area{
+        padding-bottom: 70px;
+    }
+    .single-photo-gallery{
+        display: block;
+    }
+    .about-content-area .left-content-area {
+        margin-bottom: 30px;
+    }
+    .single-team-member-item .thumb img,
+    .find-tour-item .thumb img{
+        width: 100%;
+    }
+    .footer-area .footer-top .widget {
+        margin-top: 30px;
+    }
+    
+    .footer-area .footer-top {
+        padding-top: 25px;
+    }
+    .error-page-content-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .single-blog-grid-item .thumb img {
+        width: 100%;
+    }
+    .header-bottom-area.home-two {
+        padding-top: 72px;
+    }
+    .single-header-bottom-item,
+    .single-counterup-item {
+        margin-bottom: 30px;
+    }
+    .header-bottom-style-two .header-bottom-two-inner .single-header-bottom-item .icon {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .counterup-area{
+        padding-bottom: 62px;
+    }
+    .search-area .search-inner .search-tab-content ul {
+        flex-wrap: wrap;
+    }
+    .single-destination-item .content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .header-area .single-carousel-item {
+        padding: 346px 0 340px 0;
+    }
+    .single-top-country-item .thumb img {
+        width: 100%;
+    }
+    .search-area .search-inner .nav-tabs .nav-item .nav-link {
+        width: auto;
+    }
+   
+}
+
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+   .navbar-area,
+   .navbar-area.nav-fixed {
+       padding: 20px;
+   }
+  
+   .header-area .header-inner .title {
+        font-size: 55px;
+        line-height: 66px;
+    }
+    .single-service-item {
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    
+    .header-bottom-area {
+        padding-bottom: 50px;
+    }
+    .why-us-area .left-content-area .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .section-title .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .breadcrumb-area .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .about-content-area .right-content-area .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .error-page-content-inner .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .header-bottom-area.home-two{
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width: 450px){
+    .header-area .header-inner .title {
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 15px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 20px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn {
+        width: 160px;
+    }
+    .why-us-area .left-content-area .title {
+        font-size: 22px;
+        line-height: 31px;
+        font-weight: 600;
+    }
+    .pakages-content-area{
+        padding-bottom: 70px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-footer .right-content {
+        float: none;
+        margin-top: 10px;
+    }
+    .breadcrumb-area.extra {
+        padding-bottom: 125px;
+    }
+    .header-area .single-carousel-item {
+        padding: 270px 0 185px 0;
+    }
+    .header-area .header-inner p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .breadcrumb-area {
+        padding: 226px 0 125px 0;
+    }
+    .blog-details-page-content-area .blog-details-content .title {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .breadcrumb-area .title {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .header-area.style-two {
+        padding: 270px 0 285px 0;
+    }
+}
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+  
+    .navbar-area.home-two {
+        height: 100px;
+    }
+    .navbar-area .nav-container {
+        position: relative;
+        margin-top: 0px;
+    }
+    .navbar-area.nav-fixed .nav-container {
+        position: relative;
+        margin-top: 0px;
+    }
+    .header-area .header-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 20px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn{
+        padding: 0;
+        width: 160px;
+    }
+    .header-area .single-carousel-item {
+        padding: 270px 0 185px 0;
+    }
+    .breadcrumb-area {
+        padding: 200px 0 100px 0;
+    }
+    .breadcrumb-area.extra {
+        padding-bottom: 105px;
+    }
+    .blog-details-page-content-area .blog-details-content .title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-footer .right-content {
+        float: none;
+        margin-top: 10px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-comment .comment-list li .single-comment-item.reply {
+        margin-left: 30px;
+    }
+    .breadcrumb-area .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .header-area .header-inner p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .header-area.style-two {
+        padding: 270px 0 285px 0;
+    }
+    .single-counterup-item .icon {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .single-counterup-item .content .countnum {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .single-service-item-two .content .title {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .single-service-item-two .icon {
+        font-size: 25px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-bottom: 15px;
+    }
+    .video-play-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .search-area .search-inner .search-tab-content ul li .single-item.select {
+        min-width: 140px;
+    }
+    .search-area .search-inner .search-tab-content ul li .single-item.date {
+        width: 135px;
+    }
+    .section-title .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .contact-info-area .title {
+        font-size: 24px;
+    }
+    .header-bottom-style-two .header-bottom-two-inner .single-header-bottom-item .content .title {
+        font-size: 21px;
+    }
+    .search-area .search-inner .nav-tabs .nav-item .nav-link {
+        padding: 10px 15px;
+    }
+    .header-area .single-carousel-item {
+        padding: 270px 0 280px 0;
+    }
+    .about-content-area .right-content-area .title{
+        font-weight: 600;
+    }
+    .single-price-plan-two .price-header .price {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .faq-page-content-area .left-content-area {
+        margin-top: 20px;
+    }
+    .accordion-wrapper .card .card-header h5 a {
+        padding: 15px 50px 15px 30px;
+    }
+    .error-page-content-inner .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-comment .title ,
+    .blog-details-page-content-area .blog-details-content .comment-form-area .title{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-comment .comment-list li .single-comment-item .content .name {
+        font-size: 18px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-content blockquote .author-name {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .single-top-country-item .content .title {
+        font-size: 21px;
+    }
+}
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+   
+    .navbar-area .nav-container {
+        position: relative;
+        margin-top: 40px;
+    }
+    .navbar-area .nav-container {
+        margin-top: 23px;
+    }
+    .header-area .header-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 18px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 18px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn {
+        padding: 0;
+        width: 145px;
+        line-height: 55px;
+        height: 55px;
+    }
+    .single-service-item .content .title{
+        font-weight: 600;
+        font-size: 21px;
+    }
+    .why-us-area .left-content-area .btn-wrapper .boxed-btn{
+        width: 150px;
+        font-size: 14px;
+    }
+    .section-title .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .why-us-area .left-content-area .title,
+    .single-pakages-item .content .title {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .error-page-content-inner .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .search-area .search-inner .search-tab-content ul li {
+        margin: 0 5px;
+    }
+    .search-area .search-inner .search-tab-content ul li .single-item.select {
+        min-width: 125px;
+    }
+    .search-area .search-inner .nav-tabs .nav-item .nav-link{
+        margin-bottom: 10px;
+    }
+    .single-team-member-item .content .title {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .find-tour-item .content .title {
+        font-size: 21px;
+    }
+    .single-price-plan-two .price-header .price {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .single-price-plan-two .price-header .price .sign {
+        top: -10px;
+    }
+}
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    .why-us-area .left-content-area .btn-wrapper .boxed-btn {
+        width: 140px;
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    .contact-info-area .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn {
+        margin: 0 1px;
+    }
+    .header-area .header-inner .title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .header-area .header-inner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .single-service-item .icon {
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .contact-form-content-area .contact-form .btn-submit{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .about-content-area .right-content-area .title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .video-play-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .find-tour-item .content .title {
+        font-size: 21px;
+        line-height: 31px;
+    }
+    .single-price-plan-two .price-header .price {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .single-price-plan-two .price-header .price .sign {
+        font-size: 20px;
+        top: -8px;
+    }
+    .find-tour-item .content .title{
+        font-weight: 600;
+    }
+    .error-page-content-inner .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .error-page-content-inner .btn-wrapper .boxed-btn{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .single-counterup-item .content .countnum {
+        font-size: 31px;
+        line-height: 41px;
+    }
+    .single-counterup-item .icon{
+        margin-bottom: 5px;
+    }
+    .search-area .search-inner .search-tab-content ul li {
+        display: block;
+        width: 100%;
+    }
+    .search-area .search-inner .search-tab-content ul li .single-item.date{
+        width: 100%;
+    }
+    .search-area .search-inner .search-tab-content ul li {
+        margin: 0px;
+    }
+    .section-title .title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .why-us-area .left-content-area .title, 
+    .single-pakages-item .content .title,
+    .single-top-country-item .content .title,
+    .single-team-member-item .content .title,
+    .find-tour-item .content .title,
+    .single-blog-grid-item .content .title,
+    .header-bottom-style-two .header-bottom-two-inner .single-header-bottom-item .content .title,
+    .single-service-item-two .content .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-comment .comment-list li .single-comment-item.reply {
+        margin-left: 20px;
+    }
+}
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 330px) {
+
+    .header-area .header-inner .btn-wrapper .boxed-btn {
+        padding: 0;
+        width: 140px;
+        line-height: 50px;
+        height: 50px;
+        font-weight: 600;
+    }
+    .why-us-area .left-content-area .btn-wrapper .boxed-btn {
+        width: 140px;
+        font-size: 14px;
+        margin: 0 2px;
+    }
+    .section-title .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .breadcrumb-area .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .single-blog-grid-item .content .title {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-footer .left-content ul li {
+        margin-bottom: 10px;
+    }
+    .blog-details-page-content-area .blog-details-content .entry-comment .comment-list li .single-comment-item.reply {
+        margin-left: 20px;
+    }
+    .blog-details-page-content-area .blog-details-content .comment-form-area .comments-entry-form .submit-btn{
+        font-size: 14px;
+    }
+    .section-title .title {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+}

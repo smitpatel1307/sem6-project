@@ -1,0 +1,110 @@
+/*
+author: mahedi amin
+description: all necessary elemnts style and hover effect
+
+
+
+
+
+ */
+
+
+
+/*social medea colr hover*/
+
+
+.btn-mr,.btn-mr-tr, .btn-mr-b,.btn-mr-t,.btn-mr-tr-h3,.white-big-btn {
+    border: 1px solid #2ecc71;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0 5px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    background: #2ecc71;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.white-big-btn{
+border:1px solid #eee;
+    color:#fff;
+    background:transparent;
+     padding: 10px 30px;
+}
+.white-big-btn:hover{
+
+    background: #eee;
+    color: #2ecc71;
+
+}
+.btn-mr:hover{
+    background: #27ae60;
+    border: 1px solid #27ae60;
+    color:#fff;
+}
+.btn-mr-tr,.btn-mr-tr-h3{
+    border:1px solid #fff;
+    background: transparent;
+
+}
+.btn-mr-tr:hover{
+    color:#fff;
+    border: 1px solid #27ae60;
+    background: #27ae60;
+}
+.btn-mr-tr-h3:hover{
+    background: #2ecc71;
+    color: #fff;
+}
+
+.btn-mr-t,.btn-mr-t-c,.btn-home-1{
+     font-family: 'Roboto Slab', serif;
+     font-size: 13px;
+     background: #2ecc71;
+     border: 2px solid transparent;
+     padding: 5px 30px;
+     text-transform: capitalize;
+     display: inline-block;
+
+}
+.btn-home-1{
+  background: transparent;
+  color:#fff;
+  border: 2px solid #fff;
+
+}
+.sticking .btn-home-1{
+  background: #2ecc71;
+  color:#fff;
+    border: 2px solid transparent;
+}
+.btn-mr-t-c{
+   border: 1px solid #eee;
+   background: transparent;
+   color: #2ecc71;
+   font-size: 16px;
+   font-weight: 300;
+   border-radius: 2px;
+}
+.btn-mr-t:hover{
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+    background: transparent;
+}
+.btn-mr-t-c:hover{
+    border: 1px solid #27ae60;
+    color: #fff;
+    background: #27ae60;
+}
+.btn-home-1:hover{
+    background: #fff;
+    color: #27ae60;
+}
+.sticking .btn-home-1:hover{
+  background: transparent;
+ border: 1px solid #2ecc71;
+}
